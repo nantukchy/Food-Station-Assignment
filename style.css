@@ -1,24 +1,38 @@
 body{
     margin: 2;
+    font-family: Merriweather;
     background-color: azure;
 }
 section{
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
+.top-part{
+    height: 500px;
+    background-image: url(images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    }
 .half-width{
     width: 50%;
     padding-left: 5%;
-    margin-top: 0%;
-    float: left;
+   padding-top: 10%; 
 }
+.half-width h1{
+    font-size: 40px;
+    padding-top: 20px;
+    margin: 0%;
+}
+.half-width p{
+    font-size: 20px;
+}
+
 .half-width img{
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin-top: 0%;
     float: left;
-    
-  
    
 }
 h1{
@@ -46,9 +60,6 @@ h1 span{
     background-size: cover;
     display: flex;
 
-}
-.middle-part .half-width h1{
-margin-top: 20%;
 }
 
 .Our-Recipe h1{
